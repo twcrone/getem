@@ -47,6 +47,9 @@ but I recommend just using the Gradle Wrapper included.
 Build `./gradlew build`
 Test `./gradlew test`
 
+The tests require for Docker to be installed locally as they use @TestContainer annotations.
+If you don't have Docker, you will need to include the `-x test` flag for the build.
+
 ## Run locally
 
 A `docker-compose.yaml` file has been provided in the `docker` directory of this project.
